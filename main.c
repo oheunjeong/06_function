@@ -33,8 +33,10 @@ int main(int argc, char *argv[]) {
 	b=5;
 	
 	output = sumTwo(a,b);
-	printf("sumTwo: %i\n",output);		
-	
+	printf("sumTwo: %i\n",output);	
+	printf("square: %i\n",square(x));
+	output =get_max(x,y);
+	printf("get_max:%i\n",output);	
 	
 	return 0;
 }
