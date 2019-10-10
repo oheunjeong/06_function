@@ -37,6 +37,7 @@ int main(int argc, char *argv[]) {
 	printf("square: %i\n",square(a));
 	output =get_max(a,b);
 	printf("get_max:%i\n",output);	
+	printf("square :%i\n",a);
 	
 	return 0;
 }
