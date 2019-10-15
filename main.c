@@ -8,15 +8,17 @@ int factorial(int n)
 	int i;
 	for(i=1;i<=n;i++)
 	{
-		res = res*i;
-		
+		res = res*i;	
 	}
+	
+	return (res);
 }
 int calcCombination(int n,int r)
 {
 	int high,low;
 	high = factorial(n);
 	low = factorial(n-r)*factorial(r);
+	
 	return(high/low);
 	
 }
